@@ -1,0 +1,19 @@
+CÓDIGO FUENTE · CONTROL DE FACTURAS BABY CREYSI
+
+Esta es una copia del código de la versión actual de la página. No incluye las cuentas, las facturas registradas, la base de datos en producción ni el código privado de la propietaria.
+
+TECNOLOGÍAS REALES
+- TypeScript y JavaScript para las funciones.
+- React/Next.js y HTML/CSS para las pantallas.
+- Consultas SQL y Cloudflare D1 (compatible con SQLite) para los datos.
+- Excel: exportación de registros.
+- El código puede revisarse en Visual Studio Code y la web se abre en Chrome.
+- Esta versión no usa Python ni Flask.
+
+PARA ABRIRLO
+1. Descomprime el ZIP en tu computadora.
+2. Abre la carpeta resultante en Visual Studio Code.
+3. Consulta app/dashboard.tsx (pantalla de facturas), app/access.tsx (acceso), app/api/ (funciones del servidor), db/schema.ts (estructura de datos) y app/globals.css (diseño).
+4. El archivo README.md contiene información técnica del proyecto base.
+
+La copia no es una instalación local lista para funcionar sin configuración: la aplicación publicada depende de la base de datos y configuración alojadas. Para ejecutar una copia independiente necesitarías instalar dependencias, configurar el entorno y crear tu propia base de datos. El dominio propio se configura aparte y no viene dentro de este ZIP.
