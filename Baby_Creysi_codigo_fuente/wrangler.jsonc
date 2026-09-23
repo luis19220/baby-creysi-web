@@ -1,0 +1,13 @@
+{
+  "name": "baby-creysi-web",
+  "main": "server.js",
+  "compatibility_date": "2024-09-23",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "baby-creysi-db",
+      "database_id": "a546d837-63e4-4d90-a7e4-3b9fc3c2fee7",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}
